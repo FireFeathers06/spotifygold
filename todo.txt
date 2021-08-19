@@ -1,0 +1,16 @@
+LANDING:
+- Underline under hovered link
+- new landing page
+- faq
+- hover soft shadow on nav bar cta
+- discord link
+
+
+TOOLS:
+- Hover soft shadow on button
+
+READ MORE:
+- Scaling
+- Nav Bar Effects
+- Support card
+- Footer
