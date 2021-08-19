@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
+    <link rel="stylesheet" href="./css/spotify.css" />
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -21,9 +22,9 @@
     ></script>
   </head>
   <body>
-    <div class="loader">
+    <!-- <div class="loader">
       <div class="loader_inner"></div>
-    </div>
+    </div> -->
 
     <header>
       <div class="wrapper">
@@ -102,7 +103,46 @@
           </div>
         </div>
         <div id="content">
-          <img src="images/mockup.png" id="mockup" alt="" />
+          <!-- <img src="images/mockup.png" id="mockup" alt="" /> -->
+          <div class="v333_314">
+            <img src="images/frame.png" id="frame" alt="" />
+            <div id="container">
+              <div class="v333_313"></div>
+              <div class="v333_327"></div>
+              <div class="v333_329"></div>
+              <div class="v333_330"></div>
+              <div class="v333_331"></div>
+              <div class="v328_722"></div>
+              <span class="v328_725">Sunburn</span
+              ><span class="v328_726">DROELOE</span>
+              <div class="v328_729"></div>
+              <div class="v328_730" id="seek"></div>
+              <span class="v328_732" id="time">0:00</span
+              ><span class="v328_733" id="totalTime">0:00</span>
+              <div class="v328_737"></div>
+              <div
+                class="v333_317"
+                id="playButton"
+                onclick="togglePlay()"
+              ></div>
+              <div class="v333_332"></div>
+              <div class="v333_369"></div>
+              <div class="v333_335"></div>
+              <div class="v333_334"></div>
+              <div class="v333_319" id="pause1" hidden></div>
+              <div class="v333_320" id="pause2" hidden></div>
+              <div class="play" id="play"></div>
+              <div class="v328_755"></div>
+              <div class="v328_758"></div>
+              <audio id="audio" preload="metadata">
+                <source
+                  id="source"
+                  src="audio/DROELOE - Sunburn.mp3"
+                  type="audio/mp3"
+                />
+              </audio>
+            </div>
+          </div>
           <img src="images/headphone.png" id="headphones" alt="" />
           <div id="grains"></div>
         </div>

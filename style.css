@@ -41,9 +41,9 @@
   z-index: 2;
 }
 #headphones {
-  height: 90%;
+  height: 80%;
   position: absolute;
-  top: 75px;
+  top: 105px;
   right: -50px;
 }
 .breaker {
@@ -1100,9 +1100,13 @@ footer .content .copyright {
 }
 
 @media screen and (max-width: 1080px) {
+  #content {
+    display: none;
+  }
   .magic {
     left: calc(50% - 20rem);
     width: 40rem;
+    display: none;
   }
   #arrow1 {
     display: none;
